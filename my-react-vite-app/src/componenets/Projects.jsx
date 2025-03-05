@@ -18,7 +18,7 @@ const projects = [
   {
     id: 3,
     name: "Portfolio",
-    technologies: "React and Vite, Tailwind CSS",
+    technologies: "React and Vite, Tailwind CSS, Html, Css, Javascript",
     github: "https://github.com/Simretandarge/poject/tree/main/my-react-vite-app",
   },
   {
@@ -36,7 +36,7 @@ const projects = [
   {
     id: 6,
     name: "Landing Page",
-    technologies: "Html, Css, Javascript",
+    technologies: "Html, Css",
     github: "https://github.com/Simretandarge/OIBSIP/tree/main/landing%20page",
   },
 ];
