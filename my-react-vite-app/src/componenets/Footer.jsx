@@ -27,9 +27,7 @@ const Footer = () => {
             <a href="https://www.instagram.com/simretandarge/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
               <FaInstagram />
             </a>
-            <a href="https://twitter.com/YOUR_TWITTER" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
-              <FaTwitter />
-            </a>
+            
             <a href="https://www.linkedin.com/in/simret-andarge-mekuria/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
               <FaLinkedin />
             </a>
@@ -37,14 +35,7 @@ const Footer = () => {
               <FaGithub />
             </a>
           </div>
-          <div className="flex space-x-4">
-            <a href="#" className="text-gray-400 hover:text-white">
-              Privacy
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              Terms of Service
-            </a>
-          </div>
+          
         </div>
       </div>
     </footer>

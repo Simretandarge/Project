@@ -1,5 +1,12 @@
 import React from "react";
 import defaultProjectImage from "../assets/Projescts.webp"; 
+import HeartDiseaseAnalaysis from "../assets/Heart_Disease_Prediction_using_Machine_Learning.jpg";
+import Parkinsons from "../assets/main-1.webp";
+import Portfolio from "../assets/Capture.jpg";
+import MusicPlayer from "../assets/musicPlayer.jpg";
+import Portfolio2 from "../assets/portifolio.jpg";
+import LandingPage from "../assets/LandingPage.jpg"
+
 
 
 const projects = [
@@ -7,36 +14,42 @@ const projects = [
     id: 1,
     name: "Heart Disease Analysis",
     technologies: "pandas, matplotlib.pyplot, seaborn",
+    image: HeartDiseaseAnalaysis,
     github: "https://github.com/Simretandarge/Heart_disease_analysis",
   },
   {
     id: 2,
     name: "Parkinsons-Disease-Detection",
     technologies: "pandas, matplotlib.pyplot, seaborn, numpy, scikit-learn",
+    image: Parkinsons,
     github: "https://github.com/Simretandarge/Parkinsons-Disease-Detection/tree/main",
   },
   {
     id: 3,
-    name: "Portfolio",
-    technologies: "React and Vite, Tailwind CSS, Html, Css, Javascript",
-    github: "https://github.com/Simretandarge/poject/tree/main/my-react-vite-app",
+    name: "Portfolio2",
+    technologies: "React, Vite, Tailwind CSS, Flask (Python), Flask-Mail, Axios (in React)",
+    image: Portfolio,
+    github: "https://github.com/Simretandarge/Simret-Andarge",
   },
   {
     id: 4,
     name: "Music Player",
     technologies: "Html, Css, Javascript",
+    image: MusicPlayer,
     github: "https://github.com/Simretandarge/music-player-",
   },
   {
     id: 5,
     name: "Portifolio",
     technologies: "Html, Css, Javascript",
+    image: Portfolio2,
     github: "https://github.com/Simretandarge/OIBSIP/tree/main/portifolio",
   },
   {
     id: 6,
     name: "Landing Page",
     technologies: "Html, Css",
+    image: LandingPage,
     github: "https://github.com/Simretandarge/OIBSIP/tree/main/landing%20page",
   },
 ];
