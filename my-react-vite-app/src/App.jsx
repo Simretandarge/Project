@@ -11,7 +11,7 @@ function App() {
   // Accessing the VITE_API_URL environment variable
   const apiUrl = import.meta.env.VITE_API_URL;
 
-  console.log('API URL:', apiUrl);  // You can remove this line once you confirm the URL is correct
+  console.log('API URL:', apiUrl); // Check if this prints the correct URL
 
   return (
     <div>
@@ -27,3 +27,4 @@ function App() {
 }
 
 export default App;
+
