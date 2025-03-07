@@ -212,7 +212,6 @@
     "update-browserslist-db": "^1.1.3",
     "uri-js": "^4.4.1",
     "util-deprecate": "^1.0.2",
-    "vite": "^6.2.0",
     "which": "^2.0.2",
     "word-wrap": "^1.2.5",
     "wrap-ansi": "^8.1.0",
@@ -221,7 +220,8 @@
     "yocto-queue": "^0.1.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.4"
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.2.1"
   },
   "scripts": {
     "dev": "vite",
